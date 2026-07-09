@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Aviso de Privacidad | Promotora CVA Bienes & Raíces",
+  title: "Promotora CVA | Bienes & Raíces en Mérida, Yucatán",
   description:
-    "Aviso de Privacidad de Promotora CVA Bienes & Raíces, Mérida, Yucatán.",
+    "Promotora CVA Bienes & Raíces, Mérida, Yucatán.",
   icons: {
     icon: "/logo-cva.png",
   },

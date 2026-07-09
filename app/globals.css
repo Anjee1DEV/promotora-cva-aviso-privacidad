@@ -31,6 +31,69 @@ a {
   color: var(--azul-oscuro);
 }
 
+/* ---------- Landing (home) ---------- */
+
+.landing {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  gap: 22px;
+}
+
+.landing-logo {
+  height: clamp(120px, 22vw, 180px);
+  width: auto;
+}
+
+.landing-tagline {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--texto-suave);
+  letter-spacing: 0.01em;
+}
+
+.landing-cta {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 14px 32px;
+  background: var(--azul-oscuro);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.98rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.landing-cta:hover {
+  background: var(--azul);
+}
+
+.landing-cta:active {
+  transform: scale(0.98);
+}
+
+.landing-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 22px 20px;
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+  border-top: 1px solid var(--borde);
+}
+
 /* ---------- Header ---------- */
 
 .header {
